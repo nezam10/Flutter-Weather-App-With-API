@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app_using_api/model_class/date_time.dart';
+import 'package:weather_app_using_api/pages/home_page.dart';
 import 'package:weather_app_using_api/pages/view_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ViewScreen(),
+      home: HomePage(),
     );
   }
 }

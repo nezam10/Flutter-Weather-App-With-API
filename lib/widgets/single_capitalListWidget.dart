@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-SingleCapitalListWidget(BuildContext context) {
+SingleCapitalListWidget(String name, BuildContext context) {
   return SafeArea(
     child: Padding(
       padding: const EdgeInsets.all(8.0),
@@ -12,7 +12,7 @@ SingleCapitalListWidget(BuildContext context) {
           width: MediaQuery.of(context).size.width,
           height: 180,
           child: Column(
-            children: [],
+            children: [Text(name)],
           ),
         ),
       ),
